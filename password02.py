@@ -11,7 +11,7 @@ else:
 #Confirming the password
 if password == confirm_password:
         print("Match-Confirm password")
- elif password != confirm_password:
+elif password != confirm_password:
         print("Mismatch,try again")
 else:
         print("Reset password")
